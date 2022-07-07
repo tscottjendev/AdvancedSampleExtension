@@ -1,0 +1,15 @@
+.alpackages
+*.g.xlf
+*.7z
+*.app
+.vscode/*
+rad.json
+launch.json
+*.flf
+TestResults.xml
+BuildOutput.txt
+.output
+.alcache/
+.altemplates/
+cache_*
+

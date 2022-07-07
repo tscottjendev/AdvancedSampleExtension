@@ -1,0 +1,22 @@
+{
+    "name": "Advanced Sample Extenstion ruleset",
+    "description": "These rules must be respected by all the AL code written within the app.",
+    "rules": [
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "The ID range assigned to the extension must be within the range allowed for AppSource applications - Want AppSourceRules applied but for onprem"
+        },
+        {
+            "id": "AS0053",
+            "action": "None",
+            "justification": "The compilation target is set to 'OnPrem', but it must be set to 'Cloud' or 'Extension'. - Want AppSourceRules applied but for onprem"
+        },
+        {
+            "id": "PTE0005",
+            "action": "None",
+            "justification": "The compilation target is set to 'OnPrem', but it must be set to 'Cloud' or 'Extension'. - Want AppSourceRules applied but for onprem"
+        }
+
+    ]
+}

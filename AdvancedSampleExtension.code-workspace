@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "AdvancedSampleExtension"
+		},
+		{
+			"path": "AdvancedSampleExtension-Test"
+		}
+	],
+	"settings": {
+		"al.codeAnalyzers": [
+			"${CodeCop}",
+			"${UICop}",
+			"${PerTenantExtensionCop}",
+			"${AppSourceCop}",
+			"${analyzerFolder}BusinessCentral.LinterCop.dll"
+		],
+		"al.enableCodeAnalysis": true,
+		"al.backgroundCodeAnalysis": true,
+		"al.ruleSetPath": "ruleset.json",
+		"CRS.FileNamePattern": "<ObjectNameShort>.<ObjectType>.al",
+		"CRS.ObjectNamePrefix": "ASE ",
+		"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		"linterCop.autoDownload": false
+	},
+	"extensions": {
+		"recommendations": [
+			"andrzejzwierzchowski.al-code-outline",
+			"fluxxusnl.atdd-testscriptor",
+			"stefanmaron.businesscentral-lintercop",
+			"waldo.crs-al-language-extension",
+			"jamespearson.al-test-runner",
+			"ms-dynamics-smb.al"
+		]
+	}
+}

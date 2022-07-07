@@ -1,0 +1,36 @@
+{
+  "id": "10e511a7-69d1-48d8-8fda-d450ad81d199",
+  "name": "Advanced Sample Extension",
+  "publisher": "Default publisher",
+  "version": "20.1.0.0",
+  "brief": "Advanced sample extension from MSDocs",
+  "description": "Advanced sample extension which is used as the foundation for writing a test which you can read about in the Testing the Advanced Sample Extension topic",
+  "privacyStatement": "https://www.jendev.com/app/privacy",
+  "EULA": "https://www.jendev.com/app/eula",
+  "help": "https://www.jendev.com/app/help",
+  "url": "https://www.jendev.com/app",
+  "logo": "placeholder-image-600x450.jpg",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "20.1.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "9.1",
+  "target":  "OnPrem",
+  "contextSensitiveHelpUrl": "https://www.jendev.com",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "applicationInsightsConnectionString": "ApplicationInsightkey"
+}
